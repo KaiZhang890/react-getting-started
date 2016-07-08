@@ -10,7 +10,7 @@ React是一个框架吗？
 * 快速渲染
 * 组件驱动
 
-DOM很慢
+操作DOM很慢  
 ![html-div](https://raw.githubusercontent.com/KaiZhang890/react-getting-started/master/html-div.png)
 
 >所谓的 Virtual DOM 算法。包括几个步骤：  
