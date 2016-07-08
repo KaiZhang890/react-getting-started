@@ -10,6 +10,9 @@ React是一个框架吗？
 * 快速渲染
 * 组件驱动
 
+DOM很慢
+![html-div](https://raw.githubusercontent.com/KaiZhang890/react-getting-started/master/html-div.png)
+
 >所谓的 Virtual DOM 算法。包括几个步骤：  
 >1. 用 JavaScript 对象结构表示 DOM 树的结构；然后用这个树构建一个真正的 DOM 树，插到文档中。  
 >2. 当状态变更的时候，重新构造一棵新的对象树。然后用新的树和旧的树进行比较，记录两棵树差异。  
