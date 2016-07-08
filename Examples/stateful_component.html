@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple</title>
+  </head>
+  <body>
+    <div id="container"></div>
+
+    <script src="./js/react.min.js"></script>
+    <script src="./js/react-dom.min.js"></script>
+    <script>
+      var Timer = React.createClass({
+        getInitialState: function getInitialState() {
+          return { secondsElapsed: 0 };
+        },
+        tick: function tick() {
+          this.setState({ secondsElapsed: this.state.secondsElapsed + 1 });
+        },
+        componentDidMount: function componentDidMount() {
+          this.interval = setInterval(this.tick, 1000);
+        },
+        componentWillUnmount: function componentWillUnmount() {
+          clearInterval(this.interval);
+        },
+        render: function render() {
+          return React.createElement(
+            "div",
+            null,
+            "Seconds Elapsed: ",
+            this.state.secondsElapsed
+          );
+        }
+      });
+
+      ReactDOM.render(
+        React.createElement(Timer, null),
+        document.getElementById('container')
+      );
+    </script>
+  </body>
+</html>
