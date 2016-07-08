@@ -2,11 +2,10 @@
 了解学习React。
 
 ####What is React
-[React](https://facebook.github.io/react/)
+[React](https://facebook.github.io/react/) VS [Angular](https://angularjs.org)
 
 一个用于构建用户界面的JavaScript库。  
-React是一个框架吗？
-
+  
 * 快速渲染
 * 组件驱动
 
