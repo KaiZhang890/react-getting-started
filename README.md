@@ -22,7 +22,7 @@
 
 >We have components and fast rendering - but why is it a game changer?  
 >Because React is mainly a concept and a library secondly.  
->[the react way getting started tutorial/](https://blog.risingstack.com/the-react-way-getting-started-tutorial/)
+>[the react way getting started tutorial/](https://blog.risingstack.com/the-react-way-getting-started-tutorial/)  
 
 ####How to use
 
@@ -53,6 +53,13 @@
   </body>
 </html>
 ```
-    
+
+[React 入门实例教程](http://www.ruanyifeng.com/blog/2015/03/react.html)
+
+####React Native
+![html-div](https://raw.githubusercontent.com/KaiZhang890/react-getting-started/master/react-native-pros-cons.png)
+
+[React Native 从入门到原理](http://www.jianshu.com/p/978c4bd3a759)
+
 ### License
 [WTFPL (Do What The Fuck You Want To Public License)](http://www.wtfpl.net)
