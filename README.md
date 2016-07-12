@@ -1,6 +1,12 @@
 # React getting started
 了解学习React。
 
+####前端开发  
+
+* 用 HTML 创建 DOM，构建整个网页的布局、结构
+* 用 CSS 控制 DOM 的样式，比如字体、字号、颜色、居中等
+* 用 JavaScript 接受用户事件，动态的操控 DOM
+
 ####What is React
 [React](https://facebook.github.io/react/) VS [Angular](https://angularjs.org)
 
